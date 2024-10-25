@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* 
+font-family: "Bai Jamjuree", sans-serif; 400/600
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+body{
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec1, .sec2, .sec4, .workflow, .sec7{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  
+}
+p{
+    font-weight: 400;
+}
+.sec1 img{
+    width: 125px;
+    margin: 80px 0 55px 0;
+}
+.sec1 h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.sec1 p{
+    font-size: 20px;
+    margin: 15px;
+    width: 55%;
+    line-height: 150%;
+}
+.sec1 button, .sec7 button{
+    margin: 35px 5px;
+    color: white;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    
+}
+.green-btn{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 2px 2px hsl(171, 68%, 32%);
+}
+.blue-btn{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 2px 2px hsl(233, 62%, 44%);
+}
+p{
+    color: hsl(201, 11%, 66%);
+}
+h1, h2, h3{
+    color: hsl(210, 10%, 33%);
+}
+
+
+.sec2, .sec4{
+    padding: 60px 0 10px 0;
+}
+.sec2 h2, .sec4 h2, .workflow h2, .sec7 h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.sec2 p, .sec4 p, .workflow p, .sec7 p{
+    margin: 20px;  
+    width: 52%;
+    line-height: 170%;
+    font-size: 18px;
+  }
+
+
+.sec3{
+    display: flex;
+}
+.sec3 img{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    left: -30px;
+}
+.computer-info{
+    margin: 30px 0 0 40px;
+}
+.info{
+    margin: 40px 0 60px 40px;
+}
+.info h3{
+    font-size: 23px;
+    font-weight: 600;
+}
+.info p{
+    margin-top: 8px;
+    width: 58%;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.sec4 img{
+    margin: 100px 0 0 0;
+}
+.pt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+.pt1{
+    width: 29%;
+}
+.pt1 h3{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.pt1 p{
+    margin: 20px;
+    line-height: 180%;
+}
+.sec6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec6 img{
+    margin: 40px;
+}
+.sec7{
+    padding-top: 80px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: rgba(212, 216, 221, 0.3);
+}
+
+.links{
+    display: flex;
+    margin: 40px 70px;
+    width: 50%;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    margin: 0 50px;
+    line-height: 220%;
+    font-size: 18px;
+}
+
+.c-logo{
+    width: 60px;
+    margin-left: 150px;
+}
+.social{
+   margin-right: 100px;
+   display: flex;
+   flex-wrap: nowrap;
+   
+}
+.social img{
+    margin: 10px;
+}
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+.green-btn:hover{
+    cursor: pointer;
+    background-color:  hsla(171, 66%, 44%, 0.8);
+}
+.blue-btn:hover{
+    background-color: hsl(233, 94%, 72%);
+    cursor: pointer;
+}
+
+
+
+/* @media(min-width:1440px){
+    body{
+        background: url(images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+} */
+
+@media(max-width:1221px){
+   a{
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 23px;
+   }
+   
+}
+
+
+@media(max-width:1100px){
+
+    .sec6 img{
+        margin: 20px;
+    }
+}
+
+
+ @media (min-width:376px) and (max-width:900px){
+  body{
+    width: 100vh;
+    height: 100vh;
+    background-size: cover;
+
+  }
+  .sec3{
+    width: 95%;
+  }
+ 
+    .c-logo{
+        width: 50px;
+        margin-left: 50px;
+    }
+    .links{
+        margin-left: 40px;
+    }
+    a{
+        font-size: 14px;
+        margin: 0 20px 0 0;
+       }
+    .sec6 img{
+        zoom: 50%;
+    }
+   
+} 
+
+
+
+@media (max-width:376px){
+ body{
+    background: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}   
+.sec1, .sec2, .sec4, .workflow, .sec7{
+    margin: 20px;
+}
+.sec1 h1{
+    font-size: 30px;
+    width: 90%;
+}
+.sec1 p{
+    font-size: 16px;
+    width: 92%;
+    margin-bottom: 30px;
+}
+.sec1 button, .sec7 button{
+    margin: 0;
+    margin-top: 26px;
+    padding: 16px 80px;
+    
+}
+.sec2, .sec4{
+    margin-top: 120px;
+}
+.sec2 h2, .sec4 h2, .workflow h2, .sec7 h2{
+    font-size: 28px;
+}
+.sec2 p, .sec4 p, .workflow p, .sec7 p{
+    width: 90%;
+    font-size: 16px;
+  }
+  .sec3{
+    display: flex;
+   flex-direction: column;
+}
+.sec3 img{
+    width: 80%;
+    position: static;
+    margin: auto;
+}
+.computer-info{
+    margin: 0;
+}
+.info{
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+.info p{
+    margin: auto;
+    margin-top: 8px;
+    width: 80%;
+    font-size: 16px;
+    line-height: 160%;
+}
+.sec4 img{
+    width: 100%;
+    margin: 40px 0 70px 0;
+}
+.pt{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px;
+}
+.pt1{
+    width: 100%;
+    margin-top: 35px;
+}
+.pt1 p{
+    margin: 20px;
+    line-height: 180%;
+}
+.sec6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.sec6 img{
+    width: 120px;
+    margin: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(212, 216, 221, 0.3);
+    position: relative;
+    margin-bottom: 35px;
+}
+.links{
+    display: flex;
+    flex-direction: column;   
+}
+.c-logo{
+    width: 50px;
+    margin: 40px 0 0 0;
+}
+a{
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+
+}
+
+.social{
+    position: static;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.social img{
+   margin: 0 20px;
+}
+}
